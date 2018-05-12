@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           
+        <style>
+            body {
+                     font-family: sans-serif;
+                   
+                    
+                         
+                }
+            img {
+                     float: right;
+                     width:40px;  
+                     margin-right: 10px;
+                     margin-top: 10px;
+                     
+                }
+            h2 {
+    
+                font-size: 20px;                     
+                width: 350px;
+                margin: 10 auto;
+            }
+            h1 {
+                font-size: 50px;
+            
+                line-height: 40px;
+                margin-left: 30px;
+                    
+            }
+            h3 {
+                font-size: 16px;                     
+                width: 350px;
+                margin: 10px;   
+            }
+            section{
+                width: 300px;
+                height: 250px;
+                background-color: #053C63;
+                color:white;
+                padding: 5px;
+                box-sizing: border-box;
+                margin-bottom: 10px;   
+                        
+
+            }
+            .banner1{
+                width: 300px;
+                height: 50px;
+                position: relative;
+
+            }
+            .banner1 h2{
+                position: absolute;
+                left: 50px;
+                top: -1px;
+            }
+            .banner1 img{
+                position: absolute;
+                left: 5px;
+                top: -1px;
+            }
+            .banner2 h3 {
+                position: absolute;
+                left: 50px;
+                top: -1px;
+            }
+            .banner2 .bbuy {
+                position: absolute;
+                left: 5px;
+                top: -1px;
+            }
+            .banner2 .windows{
+                position: absolute;
+                left: 180px;
+                padding: 16px;
+            }
+            .banner2 .intel{
+                position: absolute;
+                left: 145px;
+                padding: 10px;        
+        
+            }
+            .banner2{
+                width: 300px;
+                height: 50px;
+                position: relative;
+                
+                
+            }
+            .banner3{
+                width: 300px;
+                height: 250px;
+                background-color: #A5DAE3;
+                box-sizing: border-box;
+            }
+            .banner3 h1 {
+                font-size: 40px;
+            
+                line-height: 32px;
+                margin-left: 20px;
+                margin:27px;
+            }
+            .banner3 .windows{
+                position: absolute;
+                left: 150px;
+                
+                width:90px;
+                height: 30px;
+                margin:-17px;
+            }
+            .banner3 .intel{
+                position: absolute;
+                left: 65px;
+                padding: 16px;
+                width:100px;
+                height: 50px;
+                margin: -45px;
+            }
+            .banner4{
+                width: 300px;
+                height: 250px;
+                background-color: #FECE2F;
+                box-sizing: border-box; 
+            }
+            .banner5 {
+                width: 300px;
+                height: 250px;
+                background-color: #A5DAE3;
+                box-sizing: border-box; 
+            }
+            .banner5 h1 {
+                font-size: 45px;
+            
+                line-height: 40px;
+                margin-left: 10px;
+                margin:7px;
+            }
+           .banner5 .lap{
+                position: absolute;
+                left: 174px;
+                width:100px;
+                height: 90px;
+                margin: 8px;
+           }
+           .banner5 .intel{
+                position: absolute;
+                left: 20px;
+                margin:-15px;
+                width:100px;
+                height: 50px;
+           }
+           .banner6 {
+                width: 300px;
+                height: 250px;
+                background-color: #A5DAE3;
+                box-sizing: border-box; 
+           }
+           .banner6 h1{
+            font-size: 45px;
+            
+            line-height: 40px;
+            margin-left: 10px;
+            margin:7px;
+           }
+           .banner6 .windows{
+                position: absolute;
+                left: 20px;
+                
+                width:100px;
+                height: 50px;
+                margin:-18px;
+                padding: 18px;
+           }
+           .banner6 .radius{
+                position: absolute;
+                left: 180px;
+                
+                width:100px;
+                height: 100px;
+                margin:2px;
+           }
+            .banner7 .bebuy{
+                position: absolute;
+                left: 5px;
+                top: -1px;
+            
+            }
+            .banner7 {
+                width: 300px;
+                height: 50px;
+                background-color: #053C63;
+                box-sizing: border-box; 
+                position: relative;
+            
+            }
+            .banner7 h2{
+                font-size: 20px;
+                position: absolute;
+                left: 50px;
+                top: -14px;
+            }
+            .banner8 {
+                width: 300px;
+                height: 50px;
+                background-color: #FECE2F;
+                box-sizing: border-box; 
+                position: relative;
+            }
+            .banner .lapo{
+                position: absolute;
+                left: 180px;
+                
+                width:100px;
+                height: 100px;
+                margin:2px;
+            }
+            .banner8 .bby{
+                position: absolute;
+                left: 5px;
+                top: -1px;
+            }
+            .banner8 h3{
+                font-size: 20px;
+                position: absolute;
+                left: 50px;
+                top:-4px;                              
+            }
+            .banner9 {
+                width: 300px;
+                height: 250px;
+                background-color: #053C63;
+                box-sizing: border-box; 
+                position: relative;
+            }
+            .banner9 h1{
+                font-size: 45px;
+            
+                line-height: 36px;
+                margin-left: 10px;
+                margin:19px;
+            }
+            .banner9 .buy{
+                position: absolute;
+                left: 5px;
+                top: -1px;
+            }
+            .banner9 .laptop{
+                position: absolute;
+                left: 250px;
+                
+                width:200px;
+                height: 150px;
+                margin:-18px;
+                
+           }
+           .banner9 h2{
+                font-size: 20px;
+                position: absolute;
+                left:2px;
+                top: 90px;
+                margin-left: 30px;
+           }
+           .banner9 h3{
+                border: 2px solid #A5DAE3;
+                width:50px;
+                font-size: 10px;
+                position: absolute;
+                left:2px;
+                top: 151px;
+                margin-left: 30px;
+                padding: 5px;
+           }
+           .banner9 .windows1{
+                position: absolute;
+                left: 62px;
+                
+                width:100px;
+                height: 50px;
+                margin:50px;
+                padding: 18px;
+           }
+           .banner9 .intel2{
+                position: absolute;
+                left: -62px;
+                
+                width:100px;
+                height: 50px;
+                margin:-69px;
+                padding: 144px;
+           }
+        </style>
+        <section class="banner">
+            
+            <img src="img/best.png" width="5pxs">
+            <h1>BRING HOME<br> THE<br>WIN</h1>
+        </section>
+       
+        <section class="banner1">
+             <img src="img/best.png" width="5pxs">
+            <h2>BRING HOME THE WIN</h2>
+        </section>
+        <section class="banner2">
+                <img class="bbuy" src="img/best.png" width="5pxs">
+            <h3>WITH A KNOCKOUT <br>COMBO</h3>
+            <img class="windows" src="img/windows.png">
+            <img class="intel" src="img/intel.png">
+        </section>
+        <section class="banner3">
+                <img src="img/best.png" width="5pxs">
+            <h1>WITH A KNOCKOUT COMBO</h1>
+            <img class="windows" src="img/windows.png">
+            <img class="intel" src="img/intel.png">
+            
+        </section>
+        <section class="banner4">
+                <img src="img/best.png" width="5pxs">
+            <h1>BE A MULTI-<br>TASK<br>MASTER</h1>
+        </section>
+        <section class="banner5">
+                <img src="img/best.png" width="5pxs">
+            <h1>MORE<br>TASK<br>POWER</h1>
+            <img class="intel" src="img/intel.png">
+            <img class="lap"  src="img/lap.jpg">
+
+
+        </section>
+        <section class="banner6">
+                <img src="img/best.png" width="5pxs">
+            <h1>MORE<br> SURF<br> POWER</h1>
+            <img class="windows" src="img/windows.png">
+            <img class="radius"  src="img/radius2.jpg">
+        </section>
+        <section class="banner7">
+                <img class="bebuy" src="img/best.png">
+            <h2>BE A MULTI-TASK <br>MASTER</h2>
+            <img class="radius"  src="img/radius2.jpg">
+        </section>
+        <section class="banner8">
+                <img class="bby" src="img/best.png">
+            <h3>SAVE UP TO $100<br>on surface Pro 4</h3>
+            
+            <img class="lapo" src="img/laps_sd.jpg">
+        </section>
+        <section class="banner9">
+                <img class"buy" src="img/best.png" width="5pxs">
+            <h1>SAVE <br>UP TO $100</h1>
+            <h2>On Surface<br>Pro 4</h2>
+            <h3>shop now</h3>
+                <img class"laptop" src="img/laps_sd.jpg" >
+                <img class="windows1" src="img/windows.png">
+                <img class="intel2" src="img/intel.png">
+            </section>
+
+    </head>
+</html>
